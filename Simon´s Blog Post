@@ -1,4 +1,7 @@
-<h1>Blog de Simón</h1>
+<head>
+<title>Blog de Simón</title>
+
+<a href="[about me]">Sobre mí</a>
 
 <h2>Info</h2>
 <p>
@@ -8,6 +11,8 @@
 
 <h2>Blog Posts</h2>
 
+</head>
+<body>
 <h3>Lorem, ipsum dolor.
 
 <h3>Simón Beltrán</h3>
@@ -31,6 +36,7 @@
 
 <img
      src="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/download_scan_icon.svg?secret=jo835sx"
-     alt=""
+     alt="Cucha de Simón"
      />
+</body>
 
