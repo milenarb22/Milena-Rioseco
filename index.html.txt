@@ -7,6 +7,10 @@
 <body>
     <h1>¡Bienvenido a mi página!</h1>
     <p>Hola, esta es mi primera página web.</p>
-    ‹a href="https://milenarb22.github.io/Simon-sBlogPost/">Blog</a>
+    <a href="https://milenarb22.github.io/Simon-sBlogPost/">Blog</a>
+    <br><br>
+    <button onclick="window.location.href='https://milenarb22.github.io/AboutMe/'">
+        Ir a About Me
+    </button>
 </body>
 </html>
