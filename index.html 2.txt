@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página</title>
+    <style>
+        :root{
+            --bg1: #f6d365;
+            --bg2: #fda085;
+            --card: #ffffff;
+            --accent: #6c5ce7;
+            --text: #333333;
+            --muted: #666666;
+        }
+
+        * { box-sizing: border-box; }
+        html, body { height: 100%; margin: 0; }
+
+        body {
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            color: var(--text);
+            background: linear-gradient(135deg, var(--bg1), var(--bg2));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .container {
+            background: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(255,255,255,0.9));
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+            max-width: 720px;
+            width: 100%;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0 0 0.5rem 0;
+            color: var(--accent);
+            font-size: 2rem;
+            letter-spacing: 0.2px;
+        }
+
+        p {
+            margin: 0 0 1.25rem 0;
+            color: var(--muted);
+            font-size: 1.05rem;
+            line-height: 1.4;
+        }
+
+        .actions {
+            display: inline-flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        a.button, button.action {
+            display: inline-block;
+            padding: 0.6rem 1.1rem;
+            border-radius: 8px;
+            text-decoration: none;
+            background: var(--accent);
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+            transition: transform 0.12s ease, box-shadow 0.12s ease, opacity 0.12s ease;
+        }
+
+        a.button.secondary {
+            background: transparent;
+            color: var(--accent);
+            border: 2px solid rgba(108,92,231,0.12);
+        }
+
+        a.button:hover, button.action:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(108,92,231,0.22);
+        }
+
+        @media (max-width: 480px) {
+            .container { padding: 1.2rem; }
+            h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Bienvenido a mi página!</h1>
+        <p>Hola, esta es mi primera página web.</p>
+
+        <div class="actions">
+            <a class="button" href="https://milenarb22.github.io/Simon-sBlogPost/" target="_blank" rel="noopener">Blog</a>
+            <button class="action" onclick="window.location.href='https://milenarb22.github.io/AboutMe/'">
+                Ir a About Me
+            </button>
+        </div>
+    </div>
+</body>
+</html>
